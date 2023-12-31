@@ -1,0 +1,415 @@
+header{
+    width: 100%;
+    height: 156px;
+    
+    
+    
+
+}
+
+.header{
+    display: flex;
+    width: 90%;
+    max-width: 1360px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 38px 40px 40px 40px;
+    
+    
+    
+    
+}
+
+.navigation {
+    display: contents;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 41px;
+}
+
+.navigation ul li a{
+    color: var(--text, #252B42);
+font-size: 16px;
+line-height: 28px; 
+letter-spacing: 0.2px;
+}
+
+input[name=mail]{
+    width: 273px;
+height: 54px;
+border-radius: 10px;
+border: 2px solid #E8E8E8;
+background: #E8E8E8;;
+}
+
+input[name=mail]::placeholder{
+    padding: 21px 180px 17px 25px;
+    color: #B0B0B0;
+}
+
+input[name=subscribe]{
+    width: 120px;
+    height: 54px;
+    border-radius: 10px;
+background: var(--Primary, #2091F9);
+color: white;
+border: white;
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    max-width: 1440px;
+
+}
+
+.usb{
+    width: 705.743px;
+height: 913px;
+ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.container{
+    width: 734px;
+height: 913px;
+background: #F1F1F1;
+}
+
+.registration{
+    width: 528px;
+height: 538px;
+margin-top: 187px;
+margin-left: 70px;
+
+}
+
+.register{
+    text-align: center;
+    color: var(--Primary, #2091F9);
+
+font-size: 40px;
+line-height: 57px; 
+letter-spacing: 0.2px;
+}
+
+.registration p {
+    width: 376px;
+    height: 56px;
+    color: var(--text, #252B42);
+text-align: center;
+font-size: 16px;
+
+line-height: 28px; 
+letter-spacing: 0.2px;
+margin-top: 20px;
+margin-left: 80px;
+    
+   
+}
+
+input[name=email2]{
+    width: 100%;
+    border-radius: 10px;
+border: 2px solid var(--disabled, #8EC2F2);
+background: #FFF;
+height: 54px;
+margin-top: 38px;
+}
+
+input[name=email2]::placeholder{
+    color: #B0B0B0;
+    padding: 21px 430px 17px 25px ;
+}
+
+.forpasswords{
+    display: flex;
+    gap: 15px;
+}
+
+input[name=password]{
+    width: 253px;
+height: 54px;
+border-radius: 10px;
+border: 2px solid var(--disabled, #8EC2F2);
+background: #FFF;
+margin-top: 23px;
+}
+
+input[name=password]::placeholder{
+    padding: 21px 161px 17px 25px;
+}
+
+.forcheckbox{
+    margin-top: 27px;
+    margin-left: 170px;
+}
+
+.checkbox_label{
+    color: var(--text, #252B42);
+font-size: 16px;
+
+line-height: 28px; 
+letter-spacing: 0.2px;
+}
+
+.checkbox_label a{
+    color: var(--Primary, #2091F9);
+
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+}
+
+.signup{
+    width: 309px;
+    height: 64px;
+    border-radius: 10px;
+background: var(--Primary, #2091F9);
+border: white;
+margin-top: 16px;
+margin-left: 110px;
+
+}
+
+.account{
+    text-align: center;
+    margin-top: 30px;
+    color: var(--text, #252B42);
+
+font-size: 16px;
+line-height: 28px; 
+letter-spacing: 0.2px;
+}
+
+.account a{
+    color: black;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+}
+
+footer{
+    width: 100%;
+    height: 133px;
+}
+
+
+.footer{
+    width: 90%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 20px 47px 110px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #2091F9;
+    color: white;
+    
+  }
+
+  .socialmedia{
+    display: flex;
+    gap: 20px;
+  }
+
+.icons {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    
+}
+
+.second_nav{
+    z-index: 100;
+    display: none;
+}
+
+.sidebar{
+    background-color: #333;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    transition: translate 200ms ease-in-out;
+    translate: 200%;
+    
+    
+    
+}
+
+.hamburger-menu{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    z-index: 9;
+    cursor: pointer;
+    
+    
+}
+
+.hamburger-menu::before,
+.hamburger-menu::after,
+.hamburger-menu input{
+    content: "";
+    width: 60px;
+    height: 8px;
+    background-color: #333;
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    pointer-events: none;
+    transition: opacity 200ms ease-in-out,width 200ms ease-in-out, rotate 200ms ease-in-out, translate 200ms ease-in-out,
+    background-color 200ms ease-in-out;
+    border-radius: 999px;
+    transform-origin: left center;
+    
+}
+
+
+.hamburger-menu:has(input:checked)::before {
+    rotate: 45deg;
+    width: 50.9116882px;
+    translate: 0px -4px;
+    
+}
+
+.hamburger-menu:has(input:checked)::after {
+    rotate: -45deg;
+    width: 50.9116882px;
+    translate: 0px 4px;
+}
+
+.hamburger-menu input:checked{
+    opacity: 0;
+    
+}
+
+.hamburger-menu:has(input:checked) + .sidebar{
+    translate: 0;
+}
+
+
+ 
+
+  @media (max-width:1300px){
+    .usb {
+        width: 400px;
+    }
+
+    .header{
+        justify-content: flex-start;
+        gap: 150px;
+    }
+
+    .footer p{
+        margin-right: 170px;
+        
+    }
+
+  }
+
+  @media (max-width:1200px){
+    .usb{
+        width: 400px;
+    }
+
+    .header form {
+        display: none;
+    }
+
+    .registration{
+        margin-right: 100px;
+    }
+  }
+
+@media (max-width:900px){
+    .header{
+        margin-left: 100px;
+        gap: 200px;
+    }
+
+    .footer{
+        margin-left: 120px;
+        gap: 150px;
+        
+    }
+    .footer p {
+        min-width: 150px;
+    }
+    
+   
+}
+
+@media (max-width:300px){
+
+    .navigation ul{
+        display: none;
+    }
+
+    .main{
+        flex-direction: column;
+    }
+
+    .forpasswords{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input[name=email2]{
+        width: 253px;
+        height: 54px;
+        margin-left: 135px;
+    }
+
+    .footer{
+        flex-direction: column;
+        margin-left: 200px;
+        
+    }
+
+    header{
+        width: 100%;
+
+        
+        
+
+    }
+
+    .footer p {
+        margin-left: 180px;
+        
+    }
+    
+    .navigation img{
+        margin-bottom: 120px;
+    }
+
+    .second_nav{
+        display: block;
+    }
+
+    
+   
+
+    
+
+    
+    
+
+    
+}
